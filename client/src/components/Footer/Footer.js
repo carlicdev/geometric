@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
 import { FaTwitter, FaInstagramSquare, FaFacebookSquare, FaWhatsapp } from 'react-icons/fa';
 
 const Footer = () => {
@@ -7,18 +8,26 @@ const Footer = () => {
         <div>
         <div className='nav text-light bg-dark p-5 '>
             <div className='container-fluid  text-center '>
-                <button className='btn btn-success mx-3 round p-2'>
+                <motion.button className='btn btn-success mx-3 round p-2'
+                    whileHover={{ scale:1.1}}
+                >
                 <FaTwitter size={30} />
-                </button>
-                <button className='btn btn-success mx-3 round p-2'>
+                </motion.button>
+                <motion.button className='btn btn-success mx-3 round p-2'
+                    whileHover={{ scale:1.1}}
+                >
                 <FaFacebookSquare size={30} />
-                </button>
-                <button className='btn btn-success mx-3 round p-2'>
+                </motion.button>
+                <motion.button className='btn btn-success mx-3 round p-2'
+                    whileHover={{ scale:1.1}}
+                >
                 <FaInstagramSquare size={30} />
-                </button>
-                <button className='btn btn-success mx-3 round p-2'>
+                </motion.button>
+                <motion.button className='btn btn-success mx-3 round p-2'
+                    whileHover={{ scale:1.1}}
+                >
                 <FaWhatsapp size={30} />
-                </button>
+                </motion.button>
             </div>
             <div className='container-fluid text-center'>
                 <div className='d-flex justify-content-center mt-3'>

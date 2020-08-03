@@ -9,6 +9,7 @@ const Section = () => {
     return (
         <div className='container text-center my-5'>
             <p className='display-6'>Soluciones digitales para tu negocio</p>
+            <hr/>
             <div className='row d-flex justify-content-around'>
                 <div className='col-md-6 col-lg-4'>
                     <div className='card my-2 mx-1'>

@@ -3,6 +3,7 @@ import HomeForm from '../Form/HomeForm';
 import CoverInfo from './CoverInfo';
 import Section from './Section'
 import Testimonials from './Testimonials';
+import FeaturedBlog from '../Blog/FeaturedBlog';
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
         </div>
         <Section />
         <Testimonials />
+        <FeaturedBlog />
         </div>
     )
 }

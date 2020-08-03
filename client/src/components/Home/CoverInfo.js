@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const CoverInfo = () => {
     return (
-        <div className='col-md-5 col-sm-12 col-lg-8 col-xlg-10 '>
+        <div className='col-md-12 col-sm-12 col-lg-8 col-xlg-10 '>
             <div className='container mt-5 pt-5 align-middle'>
                 <motion.div
                 initial={{ y:-1250 }}
@@ -31,10 +31,10 @@ const CoverInfo = () => {
             </div>
             <div className='container'>
                 <div className='row'>
-                    <div className='card-group'>
-                        <div className='card border-success main-card mt-5'>
+                    <div className='d-flex justify-content-around'>
+                        <div className='card border-0 main-card mt-5'>
                             <div className='card-body'>
-                                <p>Si ya tienes definido tu proyecto puedes solicitar un presupuesto sin ningun compromiso y completamente gratis.</p>
+                                <p>Diseñamos y desarrollamos tu nueva WebApp.</p>
                                 <Link to='/contact'>
                                     <motion.button className='btn btn-success'
                                         whileHover={{scale: 1.1}}
@@ -45,10 +45,9 @@ const CoverInfo = () => {
                                 </Link>
                             </div>
                         </div>
-                    <div className='card border-success main-card mt-5'>
+                    <div className='card border-0 main-card mt-5'>
                             <div className='card-body'>
                                 <p>¿Que es y porque necesito una Web App?</p>
-                                <p>Averigualo aqui.</p>
                                 <Link to='/services'>
                                     <motion.button className='btn btn-success'
                                         whileHover={{scale: 1.1}}

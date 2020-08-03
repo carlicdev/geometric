@@ -1,9 +1,12 @@
 import React from 'react';
+import FeaturedBlog from './FeaturedBlog';
+import BlogList from './BlogList';
 
 const Blog = () => {
     return (
         <div>
-            <h1>Hello from blog</h1>
+            <FeaturedBlog />
+            <BlogList />
         </div>
     )
 }
