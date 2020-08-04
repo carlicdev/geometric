@@ -1,6 +1,10 @@
 import React from 'react';
-import { FaTools, FaChartLine, FaDraftingCompass, FaHammer, FaHeadset } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
+import { motion } from 'framer-motion';
 import Contact from '../Contact/Contact';
+
+import { FaTools, FaChartLine, FaDraftingCompass, FaHammer, FaHeadset } from 'react-icons/fa';
+
 
 const Services = () => {
     return (
@@ -24,9 +28,13 @@ const Services = () => {
                                 <p className='card-text'>Dinamicas</p>
                                 <p className='card-text'>Interactivas</p>
                                 <p className='card-text'>Integración de base de datos</p>
-                                <button className='btn btn-success'>
-                                    QUIERO UNA WEB APP
-                                </button>
+                                <Link to='/contact'>
+                                    <motion.button className='btn btn-success'
+                                        whileHover={{scale: 1.1}}
+                                    >
+                                        QUIERO UNA WEB APP
+                                    </motion.button>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -60,9 +68,13 @@ const Services = () => {
                                 <p className='card-text'>Dinamicas</p>
                                 <p className='card-text'>Interactivas</p>
                                 <p className='card-text'>Integración de base de datos</p>
-                                <button className='btn btn-primary'>
+                                <Link to='/contact'>
+                                <motion.button className='btn btn-primary'
+                                    whileHover={{scale: 1.1}}
+                                >
                                     QUIERO UN DISEÑO
-                                </button>
+                                </motion.button>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -80,9 +92,13 @@ const Services = () => {
                                 <p className='card-text'>Dinamicas</p>
                                 <p className='card-text'>Interactivas</p>
                                 <p className='card-text'>Integración de base de datos</p>
-                                <button className='btn btn-dark'>
+                                <Link to='contact'>
+                                <motion.button className='btn btn-dark'
+                                    whileHover={{scale: 1.1}}
+                                >
                                     POSICIONEN MI PAGINA
-                                </button>
+                                </motion.button>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -116,9 +132,13 @@ const Services = () => {
                                 <p className='card-text'>Dinamicas</p>
                                 <p className='card-text'>Interactivas</p>
                                 <p className='card-text'>Integración de base de datos</p>
-                                <button className='btn btn-danger'>
+                                <Link to='/contact'>
+                                <motion.button className='btn btn-danger'
+                                    whileHover={{scale: 1.1}}
+                                >
                                     QUIERO MANTENIMIENTO
-                                </button>
+                                </motion.button>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -136,9 +156,13 @@ const Services = () => {
                                 <p className='card-text'>Dinamicas</p>
                                 <p className='card-text'>Interactivas</p>
                                 <p className='card-text'>Integración de base de datos</p>
-                                <button className='btn btn-warning'>
+                                <Link to='/contact'>
+                                <motion.button className='btn btn-warning'
+                                    whileHover={{scale: 1.1}}
+                                >
                                     QUIERO ASESORIA
-                                </button>
+                                </motion.button>
+                                </Link>
                             </div>
                         </div>
                     </div>

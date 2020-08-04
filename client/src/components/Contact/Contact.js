@@ -5,8 +5,8 @@ import { MdMail, MdWhatsapp } from 'react-icons/md';
 
 const Contact = () => {
     return (
-        <div className='container p-5 text-center'>
-        <div className='container bg-dark p-5'>
+        <div className='container text-center my-5 mx-auto'>
+        <div className='container bg-dark py-5'>
         <div className='container text-light '>
             <p className='display-5'>
                 Contacto

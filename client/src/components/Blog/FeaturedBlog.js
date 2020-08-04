@@ -39,9 +39,11 @@ const FeaturedBlog = () => {
                             <h5 className='card-title'>Este es el titulo del Blog</h5>
                             <div className='d-flex bd-highlight'>
                                 <p className='mr-auto d-inline'><small className='text-muted'>Fecha de pub.</small></p>
-                            <button className='btn btn-success ml-auto d-inline'>
+                            <motion.button className='btn btn-success ml-auto d-inline'
+                                whileHover={{ scale: 1.1}}
+                            >
                                 Seguir leyendo
-                            </button>
+                            </motion.button>
                             </div>
                         </div>
                     </div>
@@ -51,9 +53,11 @@ const FeaturedBlog = () => {
                             <h5 className='card-title'>Este es el titulo del Blog</h5>
                             <div className='d-flex bd-highlight'>
                                 <p className='mr-auto d-inline'><small className='text-muted'>Fecha de pub.</small></p>
-                            <button className='btn btn-success ml-auto d-inline'>
+                            <motion.button className='btn btn-success ml-auto d-inline'
+                                whileHover={{ scale: 1.1}}
+                            >
                                 Seguir leyendo
-                            </button>
+                            </motion.button>
                             </div>
                         </div>
                     </div>

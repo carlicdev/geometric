@@ -26,7 +26,9 @@ const Testimonials = () => {
                     </motion.div>
                 </div>
                 <div className='col-lg-4 col-md-6'>
-                    <div className='card text-center mx-5 my-3 border-0'>
+                    <motion.div className='card text-center mx-5 my-3 border-0'
+                        whileHover={{scale:1.1}}
+                    >
                         <div className='card-header bg-success text-light'>
                             <BsChatSquareQuoteFill size={25}/>
                         </div>
@@ -36,10 +38,12 @@ const Testimonials = () => {
                         <div className='card-footer text-muted'>
                             <p>Nombre Cliente de <span>tal Empresa</span></p>
                         </div>
-                    </div>
+                    </motion.div>
                 </div>
                 <div className='col-lg-4 col-md-6'>
-                    <div className='card text-center mx-5 my-3 border-0'>
+                    <motion.div className='card text-center mx-5 my-3 border-0'
+                        whileHover={{scale:1.1}}
+                    >
                         <div className='card-header bg-success text-light'>
                             <BsChatSquareQuoteFill size={25}/>
                         </div>
@@ -49,10 +53,12 @@ const Testimonials = () => {
                         <div className='card-footer text-muted'>
                             <p>Nombre Cliente de <span>tal Empresa</span></p>
                         </div>
-                    </div>
+                    </motion.div>
                 </div>
                 <div className='col-lg-4 col-md-6'>
-                    <div className='card text-center mx-5 my-3 border-0'>
+                    <motion.div className='card text-center mx-5 my-3 border-0'
+                        whileHover={{scale:1.1}}
+                    >
                         <div className='card-header bg-success text-light'>
                             <BsChatSquareQuoteFill size={25}/>
                         </div>
@@ -62,10 +68,12 @@ const Testimonials = () => {
                         <div className='card-footer text-muted'>
                             <p>Nombre Cliente de <span>tal Empresa</span></p>
                         </div>
-                    </div>
+                    </motion.div>
                 </div>
                 <div className='col-lg-4 col-md-6'>
-                    <div className='card text-center mx-5 my-3 border-0'>
+                    <motion.div className='card text-center mx-5 my-3 border-0'
+                        whileHover={{scale:1.1}}
+                    >
                         <div className='card-header bg-success text-light'>
                             <BsChatSquareQuoteFill size={25}/>
                         </div>
@@ -75,7 +83,7 @@ const Testimonials = () => {
                         <div className='card-footer text-muted'>
                             <p>Nombre Cliente de <span>tal Empresa</span></p>
                         </div>
-                    </div>
+                    </motion.div>
                 </div>
             </div>
         </div>
