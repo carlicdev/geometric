@@ -26,7 +26,7 @@ const CoverInfo = () => {
                 animate={{ opacity: 1 }}
                 transition={{ delay: 2, duration: 1.5 }}
                 >
-                <p className='display-6'>Porque ya es hora de tener tu propia WebApp</p>
+                <p className='display-6'> Soluciones web para organizaciones y pequeños negocios que buscan tener gran impacto en linea.</p>
                 </motion.div>
             </div>
             <div className='container'>
@@ -34,30 +34,16 @@ const CoverInfo = () => {
                     <div className='d-flex justify-content-around'>
                         <div className='card border-0 main-card mt-5'>
                             <div className='card-body'>
-                                <p>Diseñamos y desarrollamos tu nueva WebApp.</p>
                                 <Link to='/contact'>
                                     <motion.button className='btn btn-success'
                                         whileHover={{scale: 1.1}}
                                         whileTap={{scale:0.9}}
                                         >
-                                        SOLICITAR PRESUPUESTO
+                                        QUIERO UNA WEB APP
                                     </motion.button>
                                 </Link>
                             </div>
                         </div>
-                    <div className='card border-0 main-card mt-5'>
-                            <div className='card-body'>
-                                <p>¿Que es y porque necesito una Web App?</p>
-                                <Link to='/services'>
-                                    <motion.button className='btn btn-success'
-                                        whileHover={{scale: 1.1}}
-                                        whileTap={{scale:0.9}}
-                                        >
-                                        AVERIGUAR
-                                    </motion.button>
-                                </Link>
-                            </div>
-                        </div> 
                         </div> 
                 </div>
             </div>

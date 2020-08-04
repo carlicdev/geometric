@@ -4,6 +4,7 @@ import webDev from '../../images/desarrollo.jpeg';
 import webDes from '../../images/diseño.jpeg';
 import webSeo from '../../images/seo.jpeg'
 import { motion } from 'framer-motion';
+import { FaTools, FaChartLine, FaDraftingCompass, FaHammer, FaHeadset } from 'react-icons/fa';
 
 const Section = () => {
     return (
@@ -12,32 +13,32 @@ const Section = () => {
             <hr/>
             <div className='row d-flex justify-content-around'>
                 <div className='col-md-6 col-lg-4'>
-                    <div className='card my-2 mx-1'>
-                        <div className='card-header bg-dark text-light '>
+                    <div className='card bg-success text-light my-2 mx-1 border-0'>
+                        <div className='card-header text-light '>
                             <p className='card-title'>Desarrollo Web</p>
                         </div>
-                        <div className='card-body p-0'>
-                            <img src={webDev} alt='webDev' className='img-fluid'/> 
+                        <div className='card-body p-5'>
+                            <FaTools size={100}/>
                         </div>
                     </div>
                 </div>
                 <div className='col-md-6 col-lg-4'>
-                    <div className='card m-2 mx-1'>
-                        <div className='card-header bg-dark text-light '>
+                    <div className='card  bg-primary text-light m-2 mx-1 border-0'>
+                        <div className='card-header '>
                             <p className='card-title'>Diseño Web</p>
                         </div>
-                        <div className='card-body p-0'>
-                        <img src={webDes} alt='webDev' className='img-fluid'/>   
+                        <div className='card-body p-5'>
+                            <FaDraftingCompass  size={100} />   
                         </div>
                     </div>  
                 </div>
                 <div className='col-md-6 col-lg-4'>
-                    <div className='card m-2 mx-1'>
+                    <div className='card bg-dark text-light m-2 mx-1 border-0'>
                         <div className='card-header bg-dark text-light '>
                             <p className='card-title'>Posicionamiento en Buscadores</p>
                         </div>
-                        <div className='card-body p-0'>
-                        <img src={webSeo} alt='webDev' className='img-fluid'/> 
+                        <div className='card-body p-5'>
+                        <FaChartLine size={100} />
                         </div>
                     </div>
                 </div>

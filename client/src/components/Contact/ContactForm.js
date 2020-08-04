@@ -28,8 +28,8 @@ const ContactForm = () => {
     }
     console.log(successMsg)
     return (
-        <div className='container mainform'>
-        <div className='col-12 m-auto mt-5 text-dark text-left pt-5 px-5'>
+        <div className='container'>
+        <div className='col-12 m-auto text-dark text-left pt-5 px-5'>
 
             <form onSubmit={handleSubmit}>
                 <div className='form-group mb-2'>
